@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "No commitment. Cancel Anytime..png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "No commitment. Cancel Anytime.@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "No commitment. Cancel Anytime.@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

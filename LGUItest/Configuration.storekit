@@ -1,0 +1,141 @@
+{
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "34AB04D0",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.lg.remote.iap",
+      "referenceName" : "get gem iap",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "11.99",
+      "familyShareable" : true,
+      "internalID" : "63DC8F8B",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.lg.remote.removeads",
+      "referenceName" : "remove ads",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_timeRate" : 4
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "B3A4215C",
+      "localizations" : [
+
+      ],
+      "name" : "weekly",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "0.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "3F19C59E",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.lg.remote.weekly",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "premium weekly",
+          "subscriptionGroupID" : "B3A4215C",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    },
+    {
+      "id" : "E34D842F",
+      "localizations" : [
+
+      ],
+      "name" : "monthly",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "2.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "2BE08353",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.lg.remote.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "premium monthly",
+          "subscriptionGroupID" : "E34D842F",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    },
+    {
+      "id" : "DCEBD27E",
+      "localizations" : [
+
+      ],
+      "name" : "yearly",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "9.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "E12D7679",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.lg.remote.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "premium yearly",
+          "subscriptionGroupID" : "DCEBD27E",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "subscriptionOffersKeyPair" : {
+    "id" : "092B18B8",
+    "privateKey" : "MF8CAQEEGC5VXBESAS/rjZKjy0TR2F1HPKopSLBCrqAKBggqhkjOPQMBAaE0AzIA\nBIIFwWOxtwtLIh6q//SyGbR2TGexhY5cOdFz/8F/dQ9iZnTeex0CSuyydyb06GbH\n4Q==",
+    "publicKey" : "MEkwEwYHKoZIzj0CAQYIKoZIzj0DAQEDMgAEggXBY7G3C0siHqr/9LIZtHZMZ7GF\njlw50XP/wX91D2JmdN57HQJK7LJ3JvToZsfh"
+  },
+  "version" : {
+    "major" : 1,
+    "minor" : 0
+  }
+}

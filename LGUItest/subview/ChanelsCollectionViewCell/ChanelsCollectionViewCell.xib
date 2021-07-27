@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChanelsCollectionViewCell"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="ChanelsCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="183" height="164"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r6R-vm-E5P">
+                    <rect key="frame" x="0.0" y="0.0" width="183" height="164"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="channel_btnchannel" translatesAutoresizingMaskIntoConstraints="NO" id="enf-yM-hhS">
+                            <rect key="frame" x="0.0" y="0.0" width="183" height="164"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f24-0m-KuL">
+                            <rect key="frame" x="10" y="10" width="163" height="144"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="AsianCrush" translatesAutoresizingMaskIntoConstraints="NO" id="6AG-rA-iFC">
+                                    <rect key="frame" x="15" y="15" width="133" height="94"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="App Lable" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xA7-60-Csf">
+                                    <rect key="frame" x="15" y="114.5" width="138" height="14.5"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <color key="textColor" systemColor="systemGray6Color"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.14117647058823529" green="0.20392156862745098" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="6AG-rA-iFC" firstAttribute="leading" secondItem="f24-0m-KuL" secondAttribute="leading" constant="15" id="I5Q-tr-IEE"/>
+                                <constraint firstAttribute="trailing" secondItem="6AG-rA-iFC" secondAttribute="trailing" constant="15" id="Jn1-C2-zh6"/>
+                                <constraint firstItem="6AG-rA-iFC" firstAttribute="top" secondItem="f24-0m-KuL" secondAttribute="top" constant="15" id="LRb-G3-dfz"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.14117647058823529" green="0.20392156862745098" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="f24-0m-KuL" secondAttribute="bottom" constant="10" id="4H1-jt-2aa"/>
+                        <constraint firstAttribute="trailing" secondItem="f24-0m-KuL" secondAttribute="trailing" constant="10" id="Eea-ps-Via"/>
+                        <constraint firstItem="f24-0m-KuL" firstAttribute="top" secondItem="r6R-vm-E5P" secondAttribute="top" constant="10" id="Ffd-B1-5ih"/>
+                        <constraint firstItem="f24-0m-KuL" firstAttribute="leading" secondItem="r6R-vm-E5P" secondAttribute="leading" constant="10" id="L7j-J3-yZ1"/>
+                        <constraint firstItem="enf-yM-hhS" firstAttribute="leading" secondItem="r6R-vm-E5P" secondAttribute="leading" id="Nr1-8F-xIh"/>
+                        <constraint firstItem="enf-yM-hhS" firstAttribute="top" secondItem="r6R-vm-E5P" secondAttribute="top" id="RVF-WM-4EY"/>
+                        <constraint firstAttribute="trailing" secondItem="enf-yM-hhS" secondAttribute="trailing" id="UQT-Ah-Vyt"/>
+                        <constraint firstAttribute="bottom" secondItem="enf-yM-hhS" secondAttribute="bottom" id="Xis-yM-vfA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.14117647058823529" green="0.20392156862745098" blue="0.25490196078431371" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="r6R-vm-E5P" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="YQZ-xY-I8H"/>
+                <constraint firstItem="r6R-vm-E5P" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="cpT-HZ-uhZ"/>
+                <constraint firstItem="r6R-vm-E5P" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fp5-us-oO2"/>
+                <constraint firstItem="r6R-vm-E5P" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="pgB-TU-Ao9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="AppImage" destination="6AG-rA-iFC" id="6fU-S0-mgY"/>
+                <outlet property="AppLabel" destination="xA7-60-Csf" id="T09-KC-gu0"/>
+                <outlet property="appview" destination="f24-0m-KuL" id="wK3-fF-xna"/>
+            </connections>
+            <point key="canvasLocation" x="-52.898550724637687" y="6.6964285714285712"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AsianCrush" width="143" height="94"/>
+        <image name="channel_btnchannel" width="187" height="164"/>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
